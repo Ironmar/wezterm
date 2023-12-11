@@ -12,13 +12,13 @@ wezterm.on("gui-startup", function(cmd)
 end)
 
 config.color_scheme = "OneHalfDark"
-config.hide_tab_bar_if_only_one_tab = true
+config.hide_tab_bar_if_only_one_tab = false
 config.window_decorations = "NONE"
 config.window_decorations = "RESIZE"
 config.window_padding = {
 	left = 5,
 	right = 5,
-	top = 20,
+	top = 0,
 	bottom = 0,
 }
 
